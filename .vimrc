@@ -94,12 +94,17 @@ let g:syntastic_check_on_wq = 0
 " ######################################################################
 " ## color scheme configuration start                                 ##
 " ######################################################################
-let g:solarized_termtrans=1
-let g:solarized_termcolors=256
-set t_Co=256
-set background=dark
+" let g:solarized_termtrans=1
+" let g:solarized_termcolors=256
+" set t_Co=256
+" set background=dark
 " set background=light
-colorscheme solarized
+" colorscheme solarized
+hi LineNr ctermfg=darkgray
+hi CursorLineNr ctermfg=red
+set cursorline
+hi clear CursorLine
+
 " ######################################################################
 " ## color scheme configuration end                                   ##
 " ######################################################################
@@ -114,3 +119,4 @@ set expandtab
 set nobackup
 set noswapfile
 set autoread
+set hlsearch
