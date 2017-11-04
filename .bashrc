@@ -6,6 +6,8 @@ if [ -d $dorfilesdir ]; then
     source $dotfilesdir/setup_dotfiles.sh
 fi
 
+eval $(/usr/local/bin/gdircolors ${dotfilesdir}/colors/dircolors.ansi-dark.txt)
+
 export TERM="screen-256color"
 alias tmux="tmux -2"
 alias ls='gls'
