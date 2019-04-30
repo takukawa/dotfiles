@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOT_FILES=(.bash_profile .bashrc .gitconfig .tmux.conf .vimrc)
+DOT_FILES=(.bash_profile .bashrc .gitconfig .commit_template .tmux.conf .vimrc)
 
 vimdir=$HOME/.vim
 if [ ! -d $vimdir ]; then

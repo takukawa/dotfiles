@@ -14,3 +14,6 @@
 
 [core]
     editor = /usr/local/bin/vim
+
+[commit]
+    template = ~/.commit_template
