@@ -13,7 +13,7 @@
     unstage = reset HEAD
 
 [core]
-    editor = /usr/local/bin/vim
+    editor = /usr/bin/vim
 
 [commit]
     template = ~/.commit_template
